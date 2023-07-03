@@ -1,0 +1,4 @@
+updateDocsWhiteList:
+  - BUG
+  - Chore
+  - minor
