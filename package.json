@@ -1,0 +1,30 @@
+{
+  "name": "gh-new-issue",
+  "version": "1.0.0",
+  "description": "my test bot",
+  "main": "index.js",
+  "dependencies": {
+    "probot": "9.3.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-import": "^2.14.0",
+    "expect": "^1.20.2",
+    "mocha": "^5.2.0",
+    "standard": "^12.0.1"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 4.0.0"
+  },
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "mocha && standard --fix"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  },
+  "author": "hiimbex",
+  "license": "ISC"
+}
