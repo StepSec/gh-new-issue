@@ -4,6 +4,8 @@
   "description": "my test bot",
   "main": "index.js",
   "dependencies": {
+    "@octokit/core": "^4.2.4",
+    "@octokit/plugin-request-log": "^1.0.4",
     "probot": "9.3.0"
   },
   "devDependencies": {
