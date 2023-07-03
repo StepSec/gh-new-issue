@@ -1,0 +1,21 @@
+{
+    "name": "issues",
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "number": 12,
+        "user": {
+          "login": "sulaiman-coder"
+        }
+      },
+      "repository": {
+        "name": "testing-things",
+        "owner": {
+          "login": "sulaiman-coder"
+        }
+      },
+      "installation": {
+        "id": 32749
+      }
+    }
+}
